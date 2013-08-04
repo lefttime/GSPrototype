@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resource/image/gx.png</file>
+        <file>Resource/image/Modeling.png</file>
+        <file>Resource/image/App.ico</file>
+        <file>Resource/gadgets/gnomon.iv</file>
+        <file>Resource/gadgets/axis.iv</file>
+        <file>Resource/gadgets/axisCube.iv</file>
+        <file>Resource/gadgets/defaultCompass.iv</file>
+        <file>Resource/gadgets/geoscienceCompass.iv</file>
+        <file>Resource/datastore/trajectory.txt</file>
+    </qresource>
+</RCC>

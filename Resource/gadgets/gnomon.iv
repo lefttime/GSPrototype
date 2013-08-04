@@ -1,0 +1,37 @@
+#Inventor V2.0 ascii
+
+DEF GnomonGeom Separator {
+  PickStyle { style UNPICKABLE }
+  DrawStyle { style FILLED }
+  LightModel { model PHONG }
+  MaterialBinding { value OVERALL }
+  Complexity { value .2 }
+  ShapeHints { vertexOrdering COUNTERCLOCKWISE shapeType SOLID creaseAngle 30 }
+  Separator {
+    Material {
+      diffuseColor    [ 0.5 0 0 ]
+      emissiveColor   [ 0.5 0 0 ]
+    }
+    RotationXYZ { axis Z angle -1.570796327 }
+    Cylinder { height 2 radius .06 }
+    Translation { translation 0 1 0 }
+    Cone { bottomRadius .18 height .3 }
+  }
+  Separator {
+    Material {
+      diffuseColor    [ 0 0.5 0 ]
+      emissiveColor   [ 0 0.5 0 ]
+    }
+    Cylinder { height 2 radius .06 }
+    Translation { translation 0 1 0 }
+    Cone { bottomRadius .18 height .3 }
+  }
+  Material {
+    diffuseColor    [ 0 0 0.5 ]
+    emissiveColor   [ 0 0 0.5 ]
+  }
+  RotationXYZ { axis X angle 1.570796327 }
+  Cylinder { height 2 radius .06 }
+  Translation { translation 0 1 0 }
+  Cone { bottomRadius .18 height .3 }
+}
